@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const router = express.Router();
 const blogs = require("../data/blogs");
-const { title } = require("process");
 
 router.get("/",(req,res)=>{
     // res.sendFile(path.join(__dirname,"../template/index.html"));
